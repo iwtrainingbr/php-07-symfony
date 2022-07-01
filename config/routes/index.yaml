@@ -1,0 +1,11 @@
+home:
+  path: /
+  controller: App\Controller\IndexController::home
+
+login:
+  path: /login
+  controller: App\Controller\IndexController::login
+
+config:
+  path: /config/{param1}/{param2}
+  controller: App\Controller\IndexController::config

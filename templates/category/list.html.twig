@@ -1,0 +1,16 @@
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Descrição</th>
+    </tr>
+
+    
+    {% for cat in categories %}
+        <tr>
+            <td>{{ cat.id }}</td>
+            <td>{{ cat.name }}</td>
+            <td>{{ cat.description }}</td>
+        </tr>
+    {% endfor %}
+</table>

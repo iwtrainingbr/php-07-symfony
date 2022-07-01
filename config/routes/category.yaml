@@ -1,0 +1,7 @@
+category_list: 
+  path: /categorias
+  controller: App\Controller\CategoryController::list
+
+category_add: 
+  path: /categorias/nova
+  controller: App\Controller\CategoryController::add
